@@ -5,29 +5,12 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        backgroundColor: Colors.grey.shade300,
-        body: Center(
-          child: Container(
-            height: 250,
-            width: 250,
-            decoration: BoxDecoration(
-              color: Colors.grey.shade300,
-              borderRadius: BorderRadius.circular(15),
-              boxShadow: [
-                BoxShadow(
-                    color: Colors.grey.shade500,
-                    offset: const Offset(4.0, 4.0),
-                    blurRadius: 15.0,
-                    spreadRadius: 1.0),
-                const BoxShadow(
-                    color: Colors.white,
-                    offset: Offset(-4.0, -4.0),
-                    blurRadius: 15.0,
-                    spreadRadius: 1),
-              ],
-            ),
-          ),
-        ));
+    return const Scaffold(
+      body: Column(
+        children: [
+          
+        ],
+      ),
+    );
   }
 }
